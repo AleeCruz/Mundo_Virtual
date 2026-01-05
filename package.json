@@ -1,26 +1,27 @@
 {
-  "name": "trabajo_practico_1",
+  "name": "Mundo_Virtual",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto de Mundo Virtual interactivo con Three.js",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AleeCruz/Trabajo_Practico_1.git"
+    "url": "git+https://github.com/AleeCruz/Mundo_Virtual.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexander Cruz Apaza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AleeCruz/Trabajo_Practico_1/issues"
+    "url": "https://github.com/AleeCruz/Mundo_Virtual/issues"
   },
-  "homepage": "https://github.com/AleeCruz/Trabajo_Practico_1#readme",
+  "homepage": "https://aleecruz.github.io/Mundo_Virtual",
   "dependencies": {
     "dat.gui": "^0.7.9",
     "three": "^0.176.0"
